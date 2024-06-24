@@ -1,7 +1,15 @@
 payload:
-  # > Youtube
-  - PROCESS-NAME,com.google.android.youtube
-  - PROCESS-NAME,com.google.android.youtube.tv
+# AUTHOR: GoodboyXMahaVPN
+# TEEGRAM: https://t.me/AfthonPc
+# GRUP TELE: https://t.me/MahaVPN_Group
+  # Maxtream
+  - DOMAIN-SUFFIX,cdn01-telkomsel-01.akamaized.net
+  - DOMAIN-SUFFIX,vmp-cms.telkomsel.com
+  - DOMAIN-SUFFIX,vmp.telkomsel.com
+  # Deezer
+  - DOMAIN-SUFFIX,deezer.com
+  - DOMAIN-SUFFIX,dzcdn.net
+  # Youtube
   - DOMAIN,youtubei.googleapis.com
   - DOMAIN,yt3.ggpht.com
   - DOMAIN,www.youtube.com
@@ -14,10 +22,6 @@ payload:
   - DOMAIN-SUFFIX,withyoutube.com
   - DOMAIN-SUFFIX,youtu.be
   - DOMAIN-SUFFIX,youtube-nocookie.com
-  - DOMAIN-SUFFIX,googlevideo.com
-  - DOMAIN-SUFFIX,gvt1.com
-  - DOMAIN-SUFFIX,video.google.com
-  - DOMAIN-SUFFIX,youtu.be
   - DOMAIN-SUFFIX,youtube.ae
   - DOMAIN-SUFFIX,youtube.al
   - DOMAIN-SUFFIX,youtube.am
@@ -113,7 +117,6 @@ payload:
   - DOMAIN-SUFFIX,youtube.fi
   - DOMAIN-SUFFIX,youtube.fr
   - DOMAIN-SUFFIX,youtube.ge
-  - DOMAIN-SUFFIX,youtube.googleapis.com
   - DOMAIN-SUFFIX,youtube.gr
   - DOMAIN-SUFFIX,youtube.gt
   - DOMAIN-SUFFIX,youtube.hk
@@ -179,16 +182,24 @@ payload:
   - DOMAIN-SUFFIX,youtubego.com.br
   - DOMAIN-SUFFIX,youtubego.id
   - DOMAIN-SUFFIX,youtubego.in
-  - DOMAIN-SUFFIX,youtubeembeddedplayer.googleapis.com
   - DOMAIN-SUFFIX,youtubei.googleapis.com
-  - DOMAIN-SUFFIX,youtubemobilesupport.com
   - DOMAIN-SUFFIX,youtubekids.com
-  - DOMAIN-SUFFIX,youtube-nocookie.com
-  - DOMAIN-SUFFIX,youtube-ui.l.google.com
+  - DOMAIN-SUFFIX,youtubemobilesupport.com
   - DOMAIN-SUFFIX,yt.be
-  - DOMAIN-SUFFIX,yt3.ggpht.com
   - DOMAIN-SUFFIX,ytimg.com
+  - DOMAIN-SUFFIX,youtubeembeddedplayer.googleapis.com
 # > Youtube IP-CIDR
   - IP-CIDR,172.110.32.0/21
   - IP-CIDR,216.73.80.0/20
   - IP-CIDR6,2620:120:e000::/40
+ # > YOUTUBE
+  - "+.youtube.com"
+  - "+.youtu.be"
+  - "+.googlevideo.com"
+  - "+.googleapis.com"
+  - "+.ggpht.com"
+  - "+.gvt1.com"
+  - "+.gvt2.com"
+  - "+.gvt3.com"
+  - "+.youtubeeducation.com"
+  - "+.youtubekids.com"
