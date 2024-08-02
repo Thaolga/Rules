@@ -7,6 +7,7 @@ https://raw.githubusercontent.com/Thaolga/Rules/main/Clash/tu.mp3
 https://raw.githubusercontent.com/Thaolga/Rules/main/Clash/ok.mp3
 https://raw.githubusercontent.com/Thaolga/Rules/main/Clash/fyp.mp3
 https://raw.githubusercontent.com/Thaolga/Rules/main/Clash/%E7%BA%A2%E8%8A%B1%E7%BB%BF%E5%8F%B6.mp3
+https://raw.githubusercontent.com/Thaolga/Rules/main/Clash/2024.mp3
 https://raw.githubusercontent.com/Thaolga/Rules/main/Clash/%E9%80%81%E7%BB%99%E6%9C%AA%E6%9D%A5%E7%9A%84%E4%BD%A0.mp3
 https://raw.githubusercontent.com/Thaolga/Rules/main/Clash/%E9%9D%92%E8%8A%B1%E7%93%B7.mp3        
 https://raw.githubusercontent.com/Thaolga/Rules/main/Clash/mix.mp3
@@ -25,4 +26,5 @@ https://raw.githubusercontent.com/Thaolga/Rules/main/Clash/Top.mp3
 https://raw.githubusercontent.com/Thaolga/Rules/main/Clash/BXH.mp3
 https://raw.githubusercontent.com/Thaolga/Rules/main/Clash/Saka.mp3
 https://raw.githubusercontent.com/Thaolga/Rules/main/Clash/HB.mp3
+
 
