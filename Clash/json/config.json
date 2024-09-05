@@ -84,6 +84,10 @@
     ],
     "outbounds": [
         {
+            "tag": "dns-out",
+            "type": "dns"
+        },
+        {
             "tag": "节点选择",
             "type": "selector",
             "outbounds": [
