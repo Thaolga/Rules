@@ -16,8 +16,8 @@
       {"tag": "localDns", "address": "223.5.5.5", "detour": "🎯 全球直连"},
       {"tag": "fakeip", "address": "fakeip"},
       {"tag": "block", "address": "rcode://success"},
-      {"tag": "proxyDnsV6", "address": "tls://[2001:4860:4860::8888]", "address_resolver": "localDns", "address_strategy": "ipv6_only", "detour": " 国际代理"},
-      {"tag": "localDnsV6", "address": "[2606:4700:4700::1111]", "detour": " 全球直连"}
+      {"tag": "proxyDnsV6", "address": "tls://[2001:4860:4860::8888]", "address_resolver": "localDns", "address_strategy": "ipv6_only", "detour": "✈️ 国际代理"},
+      {"tag": "localDnsV6", "address": "[2606:4700:4700::1111]", "detour": "🎯 全球直连"}
     ],
     "rules": [
       {"outbound": "any", "server": "localDns", "disable_cache": true},
