@@ -18,7 +18,9 @@
       {"tag": "proxyDns", "address": "tls://8.8.8.8", "address_resolver": "localDns", "address_strategy": "ipv4_only", "detour": "✈️ 国际代理"},
       {"tag": "localDns", "address": "223.5.5.5", "detour": "🎯 全球直连"},
       {"tag": "fakeip", "address": "fakeip"},
-      {"tag": "block", "address": "rcode://success"}
+      {"tag": "block", "address": "rcode://success"},
+      {"tag": "proxyDnsV6", "address": "tls://[2001:4860:4860::8888]", "address_resolver": "localDns", "address_strategy": "ipv6_only", "detour": "✈️ 国际代理"},
+      {"tag": "localDnsV6", "address": "[2606:4700:4700::1111]", "detour": "🎯 全球直连"}
     ],
     "rules": [
       {"outbound": "any", "server": "localDns", "disable_cache": true},
@@ -43,6 +45,7 @@
     {
       "type": "tun",
       "inet4_address": "172.19.0.1/30",
+      "inet6_address": "fdfe:dcba:9876::0/126",
       "mtu": 9000,
       "auto_route": true,
       "strict_route": true,
@@ -75,9 +78,12 @@
     { "tag": "📲 Telegram", "type": "selector", "outbounds": [ "✈️ 国际代理", "♻️ 自动选择","🐸 手动切换"] },
     { "tag": "🎵 TikTok", "type": "selector", "outbounds": ["✈️ 国际代理", "♻️ 自动选择", "🐸 手动切换"] },
     { "tag": "🎥 Netflix", "type": "selector", "outbounds": [ "✈️ 国际代理", "♻️ 自动选择", "🐸 手动切换"] },
-    { "tag": "🪟 Microsoft", "type": "selector", "outbounds": ["✈️ 国际代理", "♻️ 自动选择","🎯 全球直连"] },
+    { "tag": "🎬 迪士尼+", "type": "selector", "outbounds": [ "✈️ 国际代理", "♻️ 自动选择", "🐸 手动切换"] },
+    { "tag": "🪟 Microsoft", "type": "selector", "outbounds": ["🎯 全球直连", "✈️ 国际代理", "♻️ 自动选择"] },
+    { "tag": "🐳 github", "type": "selector", "outbounds": [ "✈️ 国际代理", "♻️ 自动选择", "🐸 手动切换"] },
     { "tag": "🍎 Apple", "type": "selector", "outbounds": ["🎯 全球直连", "🐸 手动切换"] },
-    { "tag": "🐸 手动切换", "type": "selector", "outbounds": ["{all}"]},
+    { "tag": "🎬️ 哔哩哔哩", "type": "selector", "outbounds": ["🎯 全球直连", "🐸 手动切换"] },
+    { "tag": "🐸 手动切换", "type": "selector", "outbounds": ["{all}"], "filter": [{ "action": "exclude", "keywords": ["网站|地址|剩余|过期|时间|有效|套餐|到期"] }] },
     { "tag": "♻️ 自动选择", "type": "urltest", "outbounds": ["{all}"], "filter": [{ "action": "exclude", "keywords": ["网站|地址|剩余|过期|时间|有效|套餐|到期"] }], "url": "http://www.gstatic.com/generate_204", "interval": "10m", "tolerance": 50 },
     { "tag": "🐟 漏网之鱼", "type": "selector", "outbounds": ["✈️ 国际代理", "🎯 全球直连", "🐸 手动切换"] },
     { "tag": "GLOBAL", "type": "selector", "outbounds": ["♻️ 自动选择", "🎯 全球直连", "🐸 手动切换"] },
@@ -100,6 +106,9 @@
       { "rule_set": ["geoip-telegram", "geosite-telegram"], "outbound": "📲 Telegram" },
       { "rule_set": "geosite-tiktok", "outbound": "🎵 TikTok" },
       { "rule_set": ["geoip-netflix", "geosite-netflix"], "outbound": "🎥 Netflix" },
+      { "rule_set": "geosite-disney", "outbound": "🎬 迪士尼+" },
+      { "rule_set": "geosite-bilibili", "outbound": "🎬️ 哔哩哔哩" },
+      { "rule_set": "geosite-github", "outbound": "🐳 github" },
       { "rule_set": ["geoip-apple", "geosite-apple"], "outbound": "🍎 Apple" },
       { "rule_set": "geosite-microsoft", "outbound": "🪟 Microsoft" },      
       { "rule_set": "geosite-geolocation-!cn", "outbound": "✈️ 国际代理" },
@@ -115,6 +124,9 @@
       { "tag": "geoip-telegram", "type": "remote", "format": "binary", "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geoip/telegram.srs", "download_detour": "🎯 全球直连" },
       { "tag": "geosite-telegram", "type": "remote", "format": "binary", "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/telegram.srs", "download_detour": "🎯 全球直连" },
       { "tag": "geosite-tiktok", "type": "remote", "format": "binary", "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/tiktok.srs", "download_detour": "🎯 全球直连" },
+      { "tag": "geoip-tiktok", "type": "remote", "format": "binary", "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo-lite/geosite/tiktok.srs", "download_detour": "🎯 全球直连" },
+      { "tag": "geosite-bilibili", "type": "remote", "format": "binary", "url": "https://mirror.ghproxy.com/https://github.com/SagerNet/sing-geosite/raw/rule-set/geosite-bilibili.srs", "download_detour": "🎯 全球直连" },
+      { "tag": "geosite-disney", "type": "remote", "format": "binary", "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/disney.srs", "download_detour": "🎯 全球直连" },
       { "tag": "geoip-netflix", "type": "remote", "format": "binary", "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geoip/netflix.srs", "download_detour": "🎯 全球直连" },
       { "tag": "geosite-netflix", "type": "remote", "format": "binary", "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/netflix.srs", "download_detour": "🎯 全球直连" },
       { "tag": "geoip-apple", "type": "remote", "format": "binary", "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo-lite/geoip/apple.srs", "download_detour": "🎯 全球直连" },
@@ -126,3 +138,4 @@
     ]
   }
 }
+
