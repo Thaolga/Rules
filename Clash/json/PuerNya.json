@@ -181,7 +181,6 @@
       "external_controller": "0.0.0.0:9090",
       "external_ui": "/etc/neko/ui",
       "secret": "Akun"
-      "default_mode": "Rule"
     }
   }
 }
