@@ -94,19 +94,27 @@
     { "tag": "🎯 全球直连", "type": "direct" },
     { "tag": "dns-out", "type": "dns" }
   ],
-    "routing": {
+   "routing": {
     "rules": [
       {
-        "ip_cidr": "192.168.0.0/16",  
+        "ip_cidr": "192.168.0.0/16",
         "outbound": "direct"
       },
       {
-        "ip_cidr": "10.0.0.0/8",      
+        "ip_cidr": "10.0.0.0/8",
         "outbound": "direct"
       },
       {
-        "ip_cidr": "0.0.0.0/0",       
+        "ip_cidr": "0.0.0.0/0",
         "outbound": "proxy"
+      },
+      {
+        "domain_suffix": ["example.com", "google.com"],
+        "outbound": "proxy"
+      },
+      {
+        "domain_suffix": ["cn"],
+        "outbound": "direct"
       }
     ]
   },
