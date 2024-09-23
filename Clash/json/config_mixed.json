@@ -164,13 +164,13 @@
       { "tag": "geosite-geolocation-!cn", "type": "remote", "format": "binary", "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/geolocation-!cn.srs", "download_detour": "🎯 全球直连" },
       { "tag": "geoip-cn", "type": "remote", "format": "binary", "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geoip/cn.srs", "download_detour": "🎯 全球直连" },
       { "tag": "geosite-cn", "type": "remote", "format": "binary", "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/cn.srs", "download_detour": "🎯 全球直连" },
-      {"tag":"applications","type":"remote","format":"binary","url":"https://fastly.jsdelivr.net/gh/DustinWin/ruleset_geodata@sing-box-ruleset/applications.srs","download_detour":"✈️ 国际代理"},
-      {"tag":"private","type":"remote","format":"binary","url":"https://mirror.ghproxy.com/https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/private.srs","download_detour":"✈️ 国际代理"},
-      {"tag":"proxy","type":"remote","format":"binary","url":"https://mirror.ghproxy.com/https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/proxy.srs","download_detour":"✈️ 国际代理"},
-      {"tag":"cn","type":"remote","format":"binary","url":"https://mirror.ghproxy.com/https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/cn.srs","download_detour":"✈️ 国际代理"},
-      {"tag":"privateip","type":"remote","format":"binary","url":"https://mirror.ghproxy.com/https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/privateip.srs","download_detour":"✈️ 国际代理"},
-      { "tag": "ads","type": "remote","format": "binary","url": "https://mirror.ghproxy.com/https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/ads.srs","download_detour":"✈️ 国际代理" },
-      {"tag":"cnip","type":"remote","format":"binary","url":"https://mirror.ghproxy.com/https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/cnip.srs","download_detour":"✈️ 国际代理"}
+      {"tag":"applications","type":"remote","format":"binary","url":"https://fastly.jsdelivr.net/gh/DustinWin/ruleset_geodata@sing-box-ruleset/applications.srs","download_detour":"🎯 全球直连"},
+      {"tag":"private","type":"remote","format":"binary","url":"https://mirror.ghproxy.com/https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/private.srs","download_detour":"🎯 全球直连"},
+      {"tag":"proxy","type":"remote","format":"binary","url":"https://mirror.ghproxy.com/https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/proxy.srs","download_detour":"🎯 全球直连"},
+      {"tag":"cn","type":"remote","format":"binary","url":"https://mirror.ghproxy.com/https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/cn.srs","download_detour":"🎯 全球直连"},
+      {"tag":"privateip","type":"remote","format":"binary","url":"https://mirror.ghproxy.com/https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/privateip.srs","download_detour":"🎯 全球直连"},
+      { "tag": "ads","type": "remote","format": "binary","url": "https://mirror.ghproxy.com/https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/ads.srs","download_detour":"🎯 全球直连" },
+      {"tag":"cnip","type":"remote","format":"binary","url":"https://mirror.ghproxy.com/https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/cnip.srs","download_detour":"🎯 全球直连"}
     ]
   }
 }
