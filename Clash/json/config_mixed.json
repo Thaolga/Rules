@@ -24,6 +24,7 @@
       {"clash_mode": "direct", "server": "localDns"},
       {"clash_mode": "global", "server": "proxyDns"},
       {"rule_set": "geosite-cn", "server": "localDns"},
+      { "rule_set": [ "ads" ], "server": "dns_block", "disable_cache": true, "rewrite_ttl": 0 },
       {"query_type": ["A", "AAAA"], "rule_set": "geosite-geolocation-!cn", "server": "fakeip"},
       {"rule_set": "geosite-geolocation-!cn", "server": "proxyDns"},
       {"query_type": ["A", "AAAA"], "server": "fakeip"}
@@ -80,6 +81,11 @@
     { "tag": "🪟 Microsoft", "type": "selector", "outbounds": ["🎯 全球直连","🎥 国际媒体", "✈️ 国际代理", "♻️ 自动选择", "🇹🇼 台湾节点","🇰🇷 韩国节点", "🇭🇰 香港节点", "🇯🇵 日本节点", "🇸🇬 新加坡节点", "🇺🇲 美国节点"] },
     { "tag": "🐳 github", "type": "selector", "outbounds": ["🎥 国际媒体", "✈️ 国际代理", "♻️ 自动选择", "🇹🇼 台湾节点","🇰🇷 韩国节点", "🇭🇰 香港节点", "🇯🇵 日本节点", "🇸🇬 新加坡节点", "🇺🇲 美国节点", "🪜 其他地区", "🎯 全球直连"] },
     { "tag": "🍎 Apple", "type": "selector", "outbounds": ["🎯 全球直连", "🇭🇰 香港节点", "🇯🇵 日本节点", "🇺🇲 美国节点"] },
+    { "tag": "🇨🇳 直连域名", "type": "selector", "outbounds": [ "🎯 全球直连", "✈️ 国际代理" ] },
+    { "tag": "🇨🇳 直连 IP", "type": "selector", "outbounds": [ "🎯 全球直连", "✈️ 国际代理" ] },
+    { "tag": "🪜 代理域名", "type": "selector", "outbounds": [ "✈️ 国际代理", "🎯 全球直连" ] },
+    { "tag": "🖥️ 直连软件", "type": "selector", "outbounds": [ "🎯 全球直连" ] },
+    { "tag": "🔒 私有网络", "type": "selector", "outbounds": [ "🎯 全球直连" ] },
     { "tag": "🎬️ 哔哩哔哩", "type": "selector", "outbounds": ["🎯 全球直连", "🇭🇰 香港节点", "🇹🇼 台湾节点", "🇰🇷 韩国节点", "🇯🇵 日本节点", "🇺🇲 美国节点"] },
     { "tag": "🪜 其他地区", "type": "selector", "outbounds": ["{all}"], "filter": [{ "action": "exclude", "keywords": ["(?i)🇭🇰|🇯🇵|🇺🇸|🇸🇬|🇹🇼|🇰🇷|港|hk|hongkong|台|tw|taiwan|日|jp|japan|新|sg|singapore|美|us|unitedstates|KR|KOREA|Korea"] }] },
     { "tag": "🐸 手动切换", "type": "selector", "outbounds": ["{all}"], "filter": [{ "action": "exclude", "keywords": ["网站|地址|剩余|过期|时间|有效|套餐|到期"] }] },
@@ -91,8 +97,11 @@
     { "tag": "🇺🇲 美国节点", "type": "selector", "outbounds": ["{all}"], "filter": [{ "action": "include", "keywords": ["🇺🇸|US|us|美国|美|United States"] }] },
     { "tag": "♻️ 自动选择", "type": "urltest", "outbounds": ["{all}"], "filter": [{ "action": "exclude", "keywords": ["网站|地址|剩余|过期|时间|有效|套餐|到期"] }], "url": "http://www.gstatic.com/generate_204", "interval": "10m", "tolerance": 50 },
     { "tag": "🐟 漏网之鱼", "type": "selector", "outbounds": ["✈️ 国际代理", "🎯 全球直连", "🇭🇰 香港节点","🇹🇼 台湾节点", "🇸🇬 新加坡节点", "🇯🇵 日本节点", "🇺🇲 美国节点", "🐸 手动切换"] },
-    { "tag": "GLOBAL", "type": "selector", "outbounds": ["🇭🇰 香港节点", "🇹🇼 台湾节点", "🇰🇷 韩国节点", "🇸🇬 新加坡节点","🇯🇵 日本节点", "🇺🇲 美国节点", "♻️ 自动选择", "📹 YouTube", "🤖 OpenAI", "🍀 Google", "📲 Telegram", "🎵 TikTok","🎥 Netflix","🎬 迪士尼+", "🪟 Microsoft","🐳 github", "🍎 Apple","🎬️ 哔哩哔哩","🐟 漏网之鱼"] },
-    { "tag": "🎯 全球直连", "type": "direct" },
+    { "tag": "GLOBAL", "type": "selector", "outbounds": [ "DIRECT", "REJECT","🇭🇰 香港节点", "🇹🇼 台湾节点", "🇰🇷 韩国节点", "🇸🇬 新加坡节点","🇯🇵 日本节点", "🇺🇲 美国节点", "♻️ 自动选择", "📹 YouTube", "🤖 OpenAI", "🍀 Google", "📲 Telegram", "🎵 TikTok","🎥 Netflix","🎬 迪士尼+", "🪟 Microsoft","🐳 github", "🍎 Apple","🎬️ 哔哩哔哩","🐟 漏网之鱼"] },
+    { "tag": "🎯 全球直连", "type": "selector", "outbounds": [ "DIRECT" ] },
+    { "tag": "🛑 广告拦截", "type": "selector", "outbounds": [ "REJECT" ] },
+    { "tag": "REJECT", "type": "block" },
+    { "tag": "DIRECT", "type": "direct" },
     { "tag": "dns-out", "type": "dns" }
   ], 
 
@@ -101,10 +110,16 @@
         "final": "🐟 漏网之鱼",
     "rules": [
       { "type": "logical", "mode": "or", "rules": [{ "port": 53 }, { "protocol": "dns" }], "outbound": "dns-out" },
-      { "clash_mode": "direct", "outbound": "🎯 全球直连" },
-      { "clash_mode": "global", "outbound": "GLOBAL" },
+      { "domain_suffix": [ "linux.do", "ajay.app", "returnyoutubedislikeapi.com" ], "outbound": "🪜 代理域名" },
+      { "domain_suffix": [ "oaifree.com", "guangbomi.com", "bootcss.com" ], "outbound": "🇨🇳 直连域名" },
+      { "protocol": [ "quic" ], "outbound": "REJECT" },
+      { "clash_mode": "Direct", "outbound": "DIRECT" },
+      { "clash_mode": "Global", "outbound": "GLOBAL" },
+      { "rule_set": [ "ads" ], "outbound": "🛑 广告拦截" },
       { "domain": ["clash.razord.top", "yacd.metacubex.one", "yacd.haishan.me", "d.metacubex.one"], "outbound": "🎯 全球直连" },
       { "ip_is_private": true, "outbound": "🎯 全球直连" },
+      { "rule_set": [ "applications" ], "outbound": "🖥️ 直连软件" },
+      { "rule_set": [ "private" ], "outbound": "🔒 私有网络" },
       { "rule_set": "geosite-openai", "outbound": "🤖 OpenAI" },
       { "rule_set": "geosite-youtube", "outbound": "📹 YouTube" },
       { "rule_set": ["geoip-google", "geosite-google"], "outbound": "🍀 Google" },
@@ -119,6 +134,10 @@
       { "rule_set": "geosite-geolocation-!cn", "outbound": "✈️ 国际代理" },
       { "rule_set": "geosite-geolocation-!cn", "outbound": "🎥 国际媒体" },
       { "rule_set": ["geoip-cn", "geosite-cn"], "outbound": "🎯 全球直连" },
+      { "rule_set": [ "proxy" ], "outbound": "🪜 代理域名" },
+      { "rule_set": [ "cn" ], "outbound": "🇨🇳 直连域名" },
+      { "rule_set": [ "privateip" ], "outbound": "🔒 私有网络", "skip_resolve": true },
+      { "rule_set": [ "cnip" ], "outbound": "🇨🇳 直连 IP" },
       { "ip_cidr": ["192.168.0.0/16", "10.0.0.0/8", "172.16.0.0/12"], "outbound": "🎯 全球直连" },
       { "geosite": ["cn"], "outbound": "🎯 全球直连" },
       { "ip_cidr": ["0.0.0.0/0"], "outbound": "✈️ 国际代理" },
@@ -144,7 +163,13 @@
       { "tag": "geosite-microsoft", "type": "remote", "format": "binary", "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/microsoft.srs", "download_detour": "🎯 全球直连" },
       { "tag": "geosite-geolocation-!cn", "type": "remote", "format": "binary", "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/geolocation-!cn.srs", "download_detour": "🎯 全球直连" },
       { "tag": "geoip-cn", "type": "remote", "format": "binary", "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geoip/cn.srs", "download_detour": "🎯 全球直连" },
-      { "tag": "geosite-cn", "type": "remote", "format": "binary", "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/cn.srs", "download_detour": "🎯 全球直连" }
+      { "tag": "geosite-cn", "type": "remote", "format": "binary", "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/cn.srs", "download_detour": "🎯 全球直连" },
+      {"tag":"applications","type":"remote","format":"binary","url":"https://fastly.jsdelivr.net/gh/DustinWin/ruleset_geodata@sing-box-ruleset/applications.srs","download_detour":"✈️ 国际代理"},
+      {"tag":"private","type":"remote","format":"binary","url":"https://mirror.ghproxy.com/https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/private.srs","download_detour":"✈️ 国际代理"},
+      {"tag":"proxy","type":"remote","format":"binary","url":"https://mirror.ghproxy.com/https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/proxy.srs","download_detour":"✈️ 国际代理"},
+      {"tag":"cn","type":"remote","format":"binary","url":"https://mirror.ghproxy.com/https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/cn.srs","download_detour":"✈️ 国际代理"},
+      {"tag":"privateip","type":"remote","format":"binary","url":"https://mirror.ghproxy.com/https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/privateip.srs","download_detour":"✈️ 国际代理"},
+      {"tag":"cnip","type":"remote","format":"binary","url":"https://mirror.ghproxy.com/https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/cnip.srs","download_detour":"✈️ 国际代理"}
     ]
   }
 }
