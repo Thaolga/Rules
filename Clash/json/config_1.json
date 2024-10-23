@@ -112,7 +112,7 @@
       { "protocol": [ "quic" ], "outbound": "REJECT" },
       { "clash_mode": "Direct", "outbound": "DIRECT" },
       { "clash_mode": "Global", "outbound": "GLOBAL" },
-      { "rule_set": [ "ads", "adblock"] ], "outbound": "🛑 广告拦截" },
+      { "rule_set": [ "ads", "adblock"], "outbound": "🛑 广告拦截" },
       { "domain": ["clash.razord.top", "yacd.metacubex.one", "yacd.haishan.me", "d.metacubex.one"], "outbound": "🎯 全球直连" },
       { "ip_is_private": true, "outbound": "🎯 全球直连" },
       { "rule_set": "geosite-openai", "outbound": "🤖 OpenAI" },
