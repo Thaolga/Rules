@@ -147,6 +147,8 @@
       "interval": "10m",
       "tolerance": 50
     },
+    { "tag": "🐟 漏网之鱼", "type": "selector", "outbounds": ["节点选择", "自动选择"] },
+    { "tag": "GLOBAL", "type": "selector", "outbounds": ["自动选择", "🎯 全球直连"] },
     {
       "type": "dns",
       "tag": "dns-out"
@@ -162,6 +164,7 @@
   ],
   "route": {
     "auto_detect_interface": true,
+     "final": "🐟 漏网之鱼",
     "rules": [
       {
         "outbound": "dns-out",
