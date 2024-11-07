@@ -148,7 +148,7 @@
       "tolerance": 50
     },
     { "tag": "🐟 漏网之鱼", "type": "selector", "outbounds": ["节点选择", "自动选择"] },
-    { "tag": "GLOBAL", "type": "selector", "outbounds": ["自动选择", "节点选择"] },
+    { "tag": "GLOBAL", "type": "selector", "outbounds": ["自动选择", "节点选择", "🐟 漏网之鱼"] },
     {
       "type": "dns",
       "tag": "dns-out"
