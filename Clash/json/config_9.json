@@ -24,9 +24,23 @@
     }
   },
   "inbounds": [
-    {"domain_strategy": "prefer_ipv4", "listen": "127.0.0.1", "listen_port": 2334, "sniff": true, "sniff_override_destination": true, "tag": "mixed-in", "type": "mixed", "users": []},
-    {"tag": "tun", "type": "tun", "inet4_address": "172.19.0.0/30", "inet6_address": "fdfe:dcba:9876::0/126", "stack": "system", "auto_route": true, "strict_route": true, "sniff": true, "platform": {"http_proxy": {"enabled": true, "server": "0.0.0.0", "server_port": 1082}}},
-    {"tag": "mixed", "type": "mixed", "listen": "0.0.0.0", "listen_port": 1082, "sniff": true}
+    {
+      "type": "tun",
+      "address": [
+        "172.19.0.0/30",
+        "fdfe:dcba:9876::0/126"
+      ],
+      "route_address": [
+        "0.0.0.0/1",
+        "128.0.0.0/1",
+        "::/1",
+        "8000::/1"
+      ],
+      "route_exclude_address": [
+        "192.168.0.0/16",
+        "fc00::/7"
+      ]
+    }
   ],
   "outbounds": [
     {"tag": "节点选择", "type": "selector", "outbounds": ["自动选择", "{all}"]},
