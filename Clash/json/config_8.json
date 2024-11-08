@@ -73,7 +73,6 @@
       { "rule_set": ["geoip-tiktok", "geosite-tiktok"], "outbound": "🎵 TikTok" },
       { "rule_set": ["geoip-netflix", "geosite-netflix"], "outbound": "🎥 Netflix" },
       { "rule_set": "geosite-disney", "outbound": "🎬 迪士尼+" },
-      { "rule_set": "geosite-bilibili", "outbound": "🎬️ 哔哩哔哩" },
       { "rule_set": "geosite-github", "outbound": "🐳 github" },
       { "rule_set": ["geoip-apple", "geosite-apple"], "outbound": "🍎 Apple" },
       {"rule_set": ["category-ads-all"], "outbound": "block"},
