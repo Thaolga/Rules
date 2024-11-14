@@ -102,8 +102,7 @@
     { "tag": "DIRECT", "type": "direct" },
     {"type": "dns", "tag": "dns-out"},
     {"type": "direct", "tag": "direct"},
-    {"type": "block", "tag": "block"},
-    { "tag": "ipv6-direct", "type": "direct", "filter": [{ "action": "accept","ip": ["::/0"]  } ]}
+    {"type": "block", "tag": "block"}
   ],
   "route": {
     "auto_detect_interface": true,
@@ -114,7 +113,6 @@
       { "clash_mode": "Global", "outbound": "GLOBAL" },
       {"rule_set": ["geosite-cn", "geoip-cn"], "outbound": "direct"},
       {"ip_is_private": true, "outbound": "direct"},
-      {"ip_is_private": false, "protocol": "ipv6", "outbound": "节点选择"},
       { "rule_set": "geosite-openai", "outbound": "🤖 OpenAI" },
       { "rule_set": "geosite-youtube", "outbound": "📹 YouTube" },
       { "rule_set": ["geoip-google", "geosite-google"], "outbound": "🍀 Google" },
