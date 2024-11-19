@@ -13,6 +13,8 @@
       {"address": "https://223.5.5.5/dns-query", "detour": "direct", "tag": "local"},
       {"address": "rcode://success", "tag": "block"}
     ],
+    "final": "remote",
+    "independent_cache": true,
     "strategy": "ipv4_only"
   },
   "experimental": {
@@ -87,7 +89,8 @@
     { "tag": "🇸🇬 新加坡节点", "type": "selector", "outbounds": ["{all}"], "filter": [{ "action": "include", "keywords": ["新|🇸🇬|sg|singapore"] }] },
     { "tag": "🇺🇲 美国节点", "type": "selector", "outbounds": ["{all}"], "filter": [{ "action": "include", "keywords": ["🇺🇸|US|us|美国|美|United States"] }] },
     { "tag": "♻️ 自动选择", "type": "urltest", "outbounds": ["{all}"], "filter": [{ "action": "exclude", "keywords": ["网站|地址|剩余|过期|时间|有效|套餐|到期"] }], "url": "http://www.gstatic.com/generate_204", "interval": "10m", "tolerance": 50 }, 
-    {"tag": "GLOBAL", "type": "selector", "outbounds": ["DIRECT", "REJECT", "🇰🇷 韩国节点", "🇯🇵 日本节点", "🇸🇬 新加坡节点", "🇺🇲 美国节点", "🐸 手动切换", "🪜 其他地区", "♻️ 自动选择", "📹 YouTube", "🤖 OpenAI", "🍀 Google", "📲 Telegram", "🎥 Netflix","🎬 迪士尼+","🐳 github"]},
+    { "tag": "🐟 漏网之鱼", "type": "selector", "outbounds": ["✈️ 国际代理", "♻️ 自动选择", "🇰🇷 韩国节点", "🇸🇬 新加坡节点", "🇯🇵 日本节点", "🇺🇲 美国节点", "🐸 手动切换", "🪜 其他地区"] },
+    {"tag": "GLOBAL", "type": "selector", "outbounds": ["DIRECT", "REJECT", "🇰🇷 韩国节点", "🇯🇵 日本节点", "🇸🇬 新加坡节点", "🇺🇲 美国节点", "🐸 手动切换", "🪜 其他地区", "♻️ 自动选择", "📹 YouTube", "🤖 OpenAI", "🍀 Google", "📲 Telegram", "🎥 Netflix","🎬 迪士尼+","🐳 github", "🐟 漏网之鱼"]},
     { "tag": "REJECT", "type": "block" },
     { "tag": "DIRECT", "type": "direct" },
     {"type": "dns", "tag": "dns-out"},
@@ -96,6 +99,7 @@
   ],
   "route": {
     "auto_detect_interface": true,
+    "final": "🐟 漏网之鱼",
     "rules": [
       {"outbound": "dns-out", "protocol": "dns"},
       { "protocol": [ "quic" ], "outbound": "REJECT" },
