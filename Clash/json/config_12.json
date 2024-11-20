@@ -3,8 +3,8 @@
   "dns": {
     "rules": [
       {"outbound": ["any"], "server": "local"},
-      {"clash_mode": "global", "server": "remote"},
-      {"clash_mode": "direct", "server": "local"},
+      {"clash_mode": "Global", "server": "remote"},
+      {"clash_mode": "Direct", "server": "local"},
       {"rule_set": ["geosite-cn"], "server": "local"},
       {"rule_set": ["category-ads-all"], "server": "block"}
     ],
