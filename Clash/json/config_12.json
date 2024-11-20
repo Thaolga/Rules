@@ -107,7 +107,7 @@
       { "protocol": [ "quic" ], "outbound": "REJECT" },
       { "clash_mode": "Direct", "outbound": "DIRECT" },
       { "clash_mode": "Global", "outbound": "GLOBAL" },
-      {"rule_set": ["geosite-cn", "geoip-cn", "cn", "cnip"], "outbound": "⭕️ 直连"},
+      {"rule_set": ["geosite-cn", "geoip-cn"], "outbound": "⭕️ 直连"},
       {"ip_is_private": true, "outbound": "⭕️ 直连"},
       { "rule_set": "geosite-openai", "outbound": "🤖 OpenAI" },
       { "rule_set": "geosite-youtube", "outbound": "📹 YouTube" },
@@ -136,7 +136,6 @@
       {"tag":"cn","type":"remote","format":"binary","url":"https://mirror.ghproxy.com/https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/cn.srs","download_detour":"✈️ 国际代理"},
       {"tag": "geosite-cn", "type": "remote", "format": "binary", "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-cn.srs", "download_detour": "✈️ 国际代理"},
       {"tag": "category-ads-all", "type": "remote", "format": "binary", "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-category-ads-all.srs", "download_detour": "✈️ 国际代理"},
-      {"tag":"cnip","type":"remote","format":"binary","url":"https://mirror.ghproxy.com/https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/cnip.srs","download_detour":"✈️ 国际代理"},
       {"tag": "geoip-cn", "type": "remote", "format": "binary", "url": "https://raw.githubusercontent.com/SagerNet/sing-geoip/rule-set/geoip-cn.srs", "download_detour": "✈️ 国际代理"}
     ]
   }
