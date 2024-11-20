@@ -83,6 +83,7 @@
     { "tag": "🎬 迪士尼+", "type": "selector", "outbounds": ["✈️ 国际代理", "♻️ 自动选择", "🇨🇳 台湾节点","🇰🇷 韩国节点", "🇸🇬 新加坡节点", "🇭🇰 香港节点", "🇯🇵 日本节点", "🇺🇲 美国节点", "🐸 手动切换", "🪜 其他地区"] },
     { "tag": "🐳 github", "type": "selector", "outbounds": ["✈️ 国际代理", "♻️ 自动选择", "🇨🇳 台湾节点","🇰🇷 韩国节点", "🇸🇬 新加坡节点", "🇭🇰 香港节点", "🇯🇵 日本节点", "🇺🇲 美国节点", "🐸 手动切换", "🪜 其他地区"] },
     { "tag": "🪟 Microsoft", "type": "selector", "outbounds": ["🇨🇳 直连","✈️ 国际代理", "🇨🇳 台湾节点","🇰🇷 韩国节点", "🇭🇰 香港节点","🇸🇬 新加坡节点", "🇺🇲 美国节点"] },
+    { "tag": "🍎 Apple", "type": "selector", "outbounds": ["🇨🇳 直连","✈️ 国际代理", "🇨🇳 台湾节点","🇰🇷 韩国节点", "🇭🇰 香港节点","🇸🇬 新加坡节点", "🇺🇲 美国节点"] },
     { "tag": "🎬️ 哔哩哔哩", "type": "selector", "outbounds": ["🇨🇳 直连","✈️ 国际代理", "🇨🇳 台湾节点","🇰🇷 韩国节点", "🇭🇰 香港节点","🇸🇬 新加坡节点", "🇺🇲 美国节点"] },
     { "tag": "🐸 手动切换", "type": "selector", "outbounds": ["{all}"], "filter": [{ "action": "exclude", "keywords": ["网站|地址|剩余|过期|时间|有效|套餐|到期"] }] },
     { "tag": "🪜 其他地区", "type": "selector", "outbounds": ["{all}"], "filter": [{ "action": "exclude", "keywords": ["(?i)🇭🇰|🇯🇵|🇺🇸|🇸🇬|🇹🇼|🇰🇷|港|hk|hongkong|台|tw|taiwan|日|jp|japan|新|sg|singapore|美|us|unitedstates|KR|KOREA|Korea|网站|地址|剩余|过期|时间|有效|套餐|到期"] }] },
@@ -94,7 +95,7 @@
     { "tag": "🇺🇲 美国节点", "type": "selector", "outbounds": ["{all}"], "filter": [{ "action": "include", "keywords": ["🇺🇸|US|us|美国|美|United States"] }] },
     { "tag": "♻️ 自动选择", "type": "urltest", "outbounds": ["{all}"], "filter": [{ "action": "exclude", "keywords": ["网站|地址|剩余|过期|时间|有效|套餐|到期"] }], "url": "http://www.gstatic.com/generate_204", "interval": "10m", "tolerance": 50 }, 
     { "tag": "🐟 漏网之鱼", "type": "selector", "outbounds": ["✈️ 国际代理", "♻️ 自动选择", "🇨🇳 台湾节点","🇰🇷 韩国节点", "🇸🇬 新加坡节点", "🇭🇰 香港节点", "🇯🇵 日本节点", "🇺🇲 美国节点", "🐸 手动切换", "🪜 其他地区"] },
-    { "tag": "GLOBAL", "type": "selector", "outbounds": ["DIRECT", "REJECT","🇭🇰 香港节点","🇨🇳 台湾节点","🇰🇷 韩国节点", "🇯🇵 日本节点", "🇸🇬 新加坡节点", "🇺🇲 美国节点", "🐸 手动切换", "🪜 其他地区", "♻️ 自动选择", "📹 YouTube", "🤖 OpenAI", "🍀 Google", "📲 Telegram", "🎥 Netflix","🎬 迪士尼+","🐳 github","🎬️ 哔哩哔哩","🪟 Microsoft","🇨🇳 直连","🐟 漏网之鱼"]},
+    { "tag": "GLOBAL", "type": "selector", "outbounds": ["DIRECT", "REJECT","🇭🇰 香港节点","🇨🇳 台湾节点","🇰🇷 韩国节点", "🇯🇵 日本节点", "🇸🇬 新加坡节点", "🇺🇲 美国节点", "🐸 手动切换", "🪜 其他地区", "♻️ 自动选择", "📹 YouTube", "🤖 OpenAI", "🍀 Google", "📲 Telegram", "🎥 Netflix","🎬 迪士尼+","🐳 github","🎬️ 哔哩哔哩","🪟 Microsoft","🍎 Apple","🇨🇳 直连","🐟 漏网之鱼"]},
     { "tag": "🇨🇳 直连", "type": "selector", "outbounds": [ "DIRECT" ] },
     { "tag": "REJECT", "type": "block" },
     { "tag": "DIRECT", "type": "direct" },
@@ -118,6 +119,7 @@
       { "rule_set": ["geoip-netflix", "geosite-netflix"], "outbound": "🎥 Netflix" },
       { "rule_set": "geosite-disney", "outbound": "🎬 迪士尼+" },
       { "rule_set": "geosite-github", "outbound": "🐳 github" },
+      { "rule_set": ["geoip-apple", "geosite-apple"], "outbound": "🍎 Apple" },
       { "rule_set": "geosite-bilibili", "outbound": "🎬️ 哔哩哔哩" },
       { "rule_set": "geosite-microsoft", "outbound": "🪟 Microsoft" },  
       {"rule_set": ["category-ads-all"], "outbound": "block"}    
@@ -135,6 +137,8 @@
       { "tag": "geosite-netflix", "type": "remote", "format": "binary", "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/netflix.srs", "download_detour": "✈️ 国际代理" },
       { "tag": "geosite-microsoft", "type": "remote", "format": "binary", "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/microsoft.srs", "download_detour": "✈️ 国际代理" },
       { "tag": "geosite-bilibili", "type": "remote", "format": "binary", "url": "https://mirror.ghproxy.com/https://github.com/SagerNet/sing-geosite/raw/rule-set/geosite-bilibili.srs", "download_detour": "✈️ 国际代理" },
+      { "tag": "geoip-apple", "type": "remote", "format": "binary", "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo-lite/geoip/apple.srs", "download_detour": "✈️ 国际代理" },
+      { "tag": "geosite-apple", "type": "remote", "format": "binary", "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/apple.srs", "download_detour": "✈️ 国际代理" },
       { "tag": "geosite-cn", "type": "remote", "format": "binary", "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-cn.srs", "download_detour": "✈️ 国际代理"},
       { "tag": "category-ads-all", "type": "remote", "format": "binary", "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-category-ads-all.srs", "download_detour": "✈️ 国际代理"},
       { "tag": "geoip-cn", "type": "remote", "format": "binary", "url": "https://raw.githubusercontent.com/SagerNet/sing-geoip/rule-set/geoip-cn.srs", "download_detour": "✈️ 国际代理"}
