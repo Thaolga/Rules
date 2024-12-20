@@ -83,11 +83,6 @@
     { "tag": "🎥 Netflix", "type": "selector", "outbounds": ["✈️ 国际代理", "♻️ 自动选择", "🇨🇳 台湾节点","🇰🇷 韩国节点", "🇸🇬 新加坡节点", "🇭🇰 香港节点", "🇯🇵 日本节点", "🇺🇲 美国节点", "🐸 手动切换", "🪜 其他地区"] },
     { "tag": "🎬 迪士尼+", "type": "selector", "outbounds": ["✈️ 国际代理", "♻️ 自动选择", "🇨🇳 台湾节点","🇰🇷 韩国节点", "🇸🇬 新加坡节点", "🇭🇰 香港节点", "🇯🇵 日本节点", "🇺🇲 美国节点", "🐸 手动切换", "🪜 其他地区"] },
     { "tag": "🐙 github", "type": "selector", "outbounds": ["✈️ 国际代理", "♻️ 自动选择", "🇨🇳 台湾节点","🇰🇷 韩国节点", "🇸🇬 新加坡节点", "🇭🇰 香港节点", "🇯🇵 日本节点", "🇺🇲 美国节点", "🐸 手动切换", "🪜 其他地区"] },
-    { "tag": "📘 Facebook", "type": "selector", "outbounds": ["✈️ 国际代理", "♻️ 自动选择", "🇨🇳 台湾节点","🇰🇷 韩国节点", "🇸🇬 新加坡节点", "🇭🇰 香港节点", "🇯🇵 日本节点", "🇺🇲 美国节点","🐸 手动切换", "🪜 其他地区"] },
-    { "tag": "📺 Bahamut", "type": "selector", "outbounds": ["✈️ 国际代理", "♻️ 自动选择", "🇨🇳 台湾节点","🇰🇷 韩国节点", "🇸🇬 新加坡节点", "🇭🇰 香港节点", "🇯🇵 日本节点", "🇺🇲 美国节点", "🐸 手动切换", "🪜 其他地区"] },
-    { "tag": "🎧 Spotify", "type": "selector", "outbounds": ["✈️ 国际代理", "♻️ 自动选择", "🇨🇳 台湾节点","🇰🇷 韩国节点", "🇸🇬 新加坡节点", "🇭🇰 香港节点", "🇯🇵 日本节点", "🇺🇲 美国节点", "🐸 手动切换", "🪜 其他地区"] },
-    { "tag": "🎮 Games", "type": "selector", "outbounds": ["🇨🇳 直连", "✈️ 国际代理", "♻️ 自动选择", "🇨🇳 台湾节点","🇰🇷 韩国节点", "🇸🇬 新加坡节点", "🇭🇰 香港节点", "🇯🇵 日本节点", "🇺🇲 美国节点","🐸 手动切换", "🪜 其他地区"] },
-    { "tag": "📽️ Streaming", "type": "selector", "outbounds": ["✈️ 国际代理", "♻️ 自动选择", "🇨🇳 台湾节点","🇰🇷 韩国节点", "🇸🇬 新加坡节点", "🇭🇰 香港节点", "🇯🇵 日本节点", "🇺🇲 美国节点","🐸 手动切换", "🪜 其他地区"] },
     { "tag": "🪟 Microsoft", "type": "selector", "outbounds": ["🇨🇳 直连","✈️ 国际代理", "🇨🇳 台湾节点","🇰🇷 韩国节点", "🇭🇰 香港节点","🇸🇬 新加坡节点", "🇺🇲 美国节点"] },
     { "tag": "🎬️ 哔哩哔哩", "type": "selector", "outbounds": ["🇨🇳 直连","✈️ 国际代理", "🇨🇳 台湾节点","🇰🇷 韩国节点", "🇭🇰 香港节点","🇸🇬 新加坡节点", "🇺🇲 美国节点"] },
     { "tag": "🍎 Apple", "type": "selector", "outbounds": ["🇨🇳 直连","✈️ 国际代理", "🇨🇳 台湾节点","🇰🇷 韩国节点", "🇭🇰 香港节点","🇸🇬 新加坡节点", "🇺🇲 美国节点"] },
@@ -101,7 +96,7 @@
     { "tag": "🇺🇲 美国节点", "type": "selector", "outbounds": ["{all}"], "filter": [{ "action": "include", "keywords": ["🇺🇸|US|us|美国|美|United States"] }] },
     { "tag": "♻️ 自动选择", "type": "urltest", "outbounds": ["{all}"], "filter": [{ "action": "exclude", "keywords": ["网站|地址|剩余|过期|时间|有效|套餐|到期|官网"] }], "url": "http://www.gstatic.com/generate_204", "interval": "10m", "tolerance": 50 }, 
     { "tag": "🐟 漏网之鱼", "type": "selector", "outbounds": ["✈️ 国际代理", "♻️ 自动选择", "🇨🇳 台湾节点","🇰🇷 韩国节点", "🇸🇬 新加坡节点", "🇭🇰 香港节点", "🇯🇵 日本节点", "🇺🇲 美国节点", "🐸 手动切换", "🪜 其他地区"] },
-    { "tag": "GLOBAL", "type": "selector", "outbounds": ["DIRECT", "REJECT","🇭🇰 香港节点","🇨🇳 台湾节点","🇰🇷 韩国节点", "🇯🇵 日本节点", "🇸🇬 新加坡节点", "🇺🇲 美国节点", "🐸 手动切换", "🪜 其他地区", "♻️ 自动选择", "🎵 TikTok","📹 YouTube", "🤖 OpenAI", "🌐 Google", "📲 Telegram", "🎥 Netflix","🎬 迪士尼+","🐙 github","📘 Facebook","📺 Bahamut","🎧 Spotify","🎮 Games","📽️ Streaming","🎬️ 哔哩哔哩","🪟 Microsoft","🍎 Apple","🇨🇳 直连","🐟 漏网之鱼"]},
+    { "tag": "GLOBAL", "type": "selector", "outbounds": ["DIRECT", "REJECT","🇭🇰 香港节点","🇨🇳 台湾节点","🇰🇷 韩国节点", "🇯🇵 日本节点", "🇸🇬 新加坡节点", "🇺🇲 美国节点", "🐸 手动切换", "🪜 其他地区", "♻️ 自动选择", "🎵 TikTok","📹 YouTube", "🤖 OpenAI", "🌐 Google", "📲 Telegram", "🎥 Netflix","🎬 迪士尼+","🐙 github","🎬️ 哔哩哔哩","🪟 Microsoft","🍎 Apple","🇨🇳 直连","🐟 漏网之鱼"]},
     { "tag": "🇨🇳 直连", "type": "selector", "outbounds": [ "DIRECT" ] },
     { "tag": "REJECT", "type": "block" },
     { "tag": "DIRECT", "type": "direct" },
@@ -131,10 +126,6 @@
       { "rule_set": ["geoip-apple", "geosite-apple"], "outbound": "🍎 Apple" },
       { "rule_set": "geosite-microsoft", "outbound": "🪟 Microsoft" },  
       { "rule_set": [ "geoip-facebook", "geosite-facebook" ], "outbound": "📘 Facebook" },
-      { "rule_set": "geosite-bahamut", "outbound": "📺 Bahamut" },
-      { "rule_set": "geosite-spotify", "outbound": "🎧 Spotify" },
-      { "rule_set": [ "geosite-category-games", "geosite-dmm" ], "outbound": "🎮 Games" },
-      { "rule_set": [ "geosite-hbo", "geosite-primevideo" ], "outbound": "📽️ Streaming" },
       {"rule_set": ["category-ads-all"], "outbound": "block"}    
     ],
     "rule_set": [
@@ -156,14 +147,6 @@
       { "tag": "geosite-apple", "type": "remote", "format": "binary", "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/apple.srs", "download_detour": "✈️ 国际代理" },
       { "tag": "geosite-cn", "type": "remote", "format": "binary", "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-cn.srs", "download_detour": "✈️ 国际代理"},
       { "tag": "category-ads-all", "type": "remote", "format": "binary", "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-category-ads-all.srs", "download_detour": "✈️ 国际代理"},
-      { "tag": "geoip-facebook", "type": "remote", "format": "binary", "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geoip/facebook.srs", "download_detour": "✈️ 国际代理" },
-      { "tag": "geosite-facebook", "type": "remote", "format": "binary", "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/facebook.srs", "download_detour": "✈️ 国际代理" },
-      { "tag": "geosite-bahamut", "type": "remote", "format": "binary", "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/bahamut.srs", "download_detour": "✈️ 国际代理" },
-      { "tag": "geosite-spotify", "type": "remote", "format": "binary", "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/spotify.srs", "download_detour": "✈️ 国际代理" },
-      { "tag": "geosite-category-games", "type": "remote", "format": "binary", "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/category-games.srs", "download_detour": "✈️ 国际代理" },
-      { "tag": "geosite-dmm", "type": "remote", "format": "binary", "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/dmm.srs", "download_detour": "✈️ 国际代理" },
-      { "tag": "geosite-hbo", "type": "remote", "format": "binary", "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/hbo.srs", "download_detour": "✈️ 国际代理" },
-      { "tag": "geosite-primevideo", "type": "remote", "format": "binary", "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/primevideo.srs", "download_detour": "✈️ 国际代理" },
       { "tag": "geoip-cn", "type": "remote", "format": "binary", "url": "https://raw.githubusercontent.com/SagerNet/sing-geoip/rule-set/geoip-cn.srs", "download_detour": "✈️ 国际代理"}
     ]
   }
