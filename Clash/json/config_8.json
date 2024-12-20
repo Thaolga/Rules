@@ -125,7 +125,6 @@
       { "rule_set": "geosite-bilibili", "outbound": "🎬️ 哔哩哔哩" },
       { "rule_set": ["geoip-apple", "geosite-apple"], "outbound": "🍎 Apple" },
       { "rule_set": "geosite-microsoft", "outbound": "🪟 Microsoft" },  
-      { "rule_set": [ "geoip-facebook", "geosite-facebook" ], "outbound": "📘 Facebook" },
       {"rule_set": ["category-ads-all"], "outbound": "block"}    
     ],
     "rule_set": [
