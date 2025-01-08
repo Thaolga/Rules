@@ -139,7 +139,7 @@
       { "rule_set": "geosite-spotify", "outbound": "🎧 Spotify" },
       { "rule_set": [ "geosite-category-games", "geosite-dmm" ], "outbound": "🎮 Games" },
       { "rule_set": [ "geosite-hbo", "geosite-primevideo" ], "outbound": "📽️ Streaming" },
-      { "rule_set": ["category-ads-all"], "outbound": "block"}    
+      { "rule_set": ["ads", "category-ads-all"], "outbound": "block"}    
     ],
     "rule_set": [
       { "tag": "geosite-tiktok", "type": "remote", "format": "binary", "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/tiktok.srs", "download_detour": "✈️ 国际代理" },
@@ -160,6 +160,7 @@
       { "tag": "geosite-apple", "type": "remote", "format": "binary", "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/apple.srs", "download_detour": "✈️ 国际代理" },
       { "tag": "geosite-cn", "type": "remote", "format": "binary", "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-cn.srs", "download_detour": "✈️ 国际代理"},
       { "tag": "category-ads-all", "type": "remote", "format": "binary", "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-category-ads-all.srs", "download_detour": "✈️ 国际代理"},
+      { "tag": "ads", "type": "remote", "format": "binary", "url": "https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/ads.srs", "download_detour": "✈️ 国际代理"},
       { "tag": "geoip-facebook", "type": "remote", "format": "binary", "url": "https://ghproxy.cn/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geoip/facebook.srs", "download_detour": "✈️ 国际代理" },
       { "tag": "geosite-facebook", "type": "remote", "format": "binary", "url": "https://ghproxy.cn/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/facebook.srs", "download_detour": "✈️ 国际代理" },
       { "tag": "geosite-bahamut", "type": "remote", "format": "binary", "url": "https://ghproxy.cn/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/bahamut.srs", "download_detour": "✈️ 国际代理" },
