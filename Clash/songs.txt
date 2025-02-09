@@ -4,6 +4,7 @@ https://raw.githubusercontent.com/Thaolga/Rules/main/Clash/苹果香.mp3
 https://raw.githubusercontent.com/Thaolga/Rules/main/Clash/旺仔小乔-盗墓笔记·十年人间 (小乔版).flac
 https://raw.githubusercontent.com/Thaolga/Rules/main/Clash/平生不晚-難卻.flac
 https://raw.githubusercontent.com/Thaolga/Rules/main/Clash/闻人听書_-一笑江湖.flac
+https://raw.githubusercontent.com/Thaolga/Rules/main/Clash/陳芯怡 - 青花瓷（粵語版）.mp3
 https://raw.githubusercontent.com/Thaolga/Rules/main/Clash/LIGHT IT UP X FLOWERS.mp3
 https://raw.githubusercontent.com/Thaolga/Rules/main/Clash/7382.mp3
 https://raw.githubusercontent.com/Thaolga/Rules/main/Clash/TaIB31.flac
@@ -41,8 +42,7 @@ https://raw.githubusercontent.com/Thaolga/Rules/main/Clash/ng.mp3
 https://raw.githubusercontent.com/Thaolga/Rules/main/Clash/tu.mp3
 https://raw.githubusercontent.com/Thaolga/Rules/main/Clash/ok.mp3
 https://raw.githubusercontent.com/Thaolga/Rules/main/Clash/fyp.mp3
-https://raw.githubusercontent.com/Thaolga/Rules/main/Clash/2024.mp3
-https://raw.githubusercontent.com/Thaolga/Rules/main/Clash/%E9%9D%92%E8%8A%B1%E7%93%B7.mp3        
+https://raw.githubusercontent.com/Thaolga/Rules/main/Clash/2024.mp3     
 https://raw.githubusercontent.com/Thaolga/Rules/main/Clash/mix.mp3
 https://raw.githubusercontent.com/Thaolga/Rules/main/Clash/tinhphaii.mp3
 https://raw.githubusercontent.com/Thaolga/Rules/main/Clash/seamus.mp3
