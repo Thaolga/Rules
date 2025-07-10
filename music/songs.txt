@@ -9,6 +9,7 @@ https://raw.githubusercontent.com/Thaolga/Rules/main/music/錦零 - 九張機.we
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/SING-許詩茵 - 煙雨行舟.webm
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/周洋& 秋容 - 燕無歇.webm
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/張璇 - 愛到老去.webm
+https://raw.githubusercontent.com/Thaolga/Rules/main/music/BXH.mp3
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/ភ្លៀងកុំធ្លាក់ខ្លាំងពេក - បាន មុន្នីល័ក្ខ.mp3
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/គេជាស្រី អូនជាប្រពន្ធ - បូទី - នាង គន្ធា.mp3
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/Trương Tuyền.webm
@@ -156,7 +157,6 @@ https://raw.githubusercontent.com/Thaolga/Rules/main/music/yxh.mp3
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/tramy.mp3
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/xiaodizi.mp3
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/Top.mp3
-https://raw.githubusercontent.com/Thaolga/Rules/main/music/BXH.mp3
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/Saka.mp3
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/HB.mp3
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/hat.mp3
