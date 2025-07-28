@@ -43,6 +43,7 @@ https://raw.githubusercontent.com/Thaolga/Rules/main/music/Oanh Tạ - 一生與
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/Oanh Tạ - 缘尽情断.webm
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/Oanh Tạ - 紫花舊夢.webm
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/Oanh Tạ - LUÂN ĐẠO VÔ HỒI.webm
+https://raw.githubusercontent.com/Thaolga/Rules/main/music/Oanh Tạ.mp3
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/天秀 - 不謂俠.webm
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/寶雲 - 娑婆法.webm
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/泰潔玲 - 喜歡就說.webm
@@ -131,7 +132,6 @@ https://raw.githubusercontent.com/Thaolga/Rules/main/music/mix_21.mp3
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/truc.mp3
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/Minh Vuong M4U-Em Sẽ Là Cô Dâu.mp3
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/mn.mp3
-https://raw.githubusercontent.com/Thaolga/Rules/main/music/OANH.mp3
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/小虎牙.mp3
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/Thng.mp3
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/Ut Nhi.mp3
