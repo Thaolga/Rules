@@ -1,5 +1,6 @@
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/鐵血丹心.webm
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/敘世 - 梨子簫.webm
+https://raw.githubusercontent.com/Thaolga/Rules/main/music/周林楓 - 別讓愛凋落.m4a
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/khuvximkoj.webm
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/Kev Hlub Txiav tsi tau.webm
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/G.E.M.鄧紫棋-桃花諾.webm
@@ -12,6 +13,18 @@ https://raw.githubusercontent.com/Thaolga/Rules/main/music/張璇 - 愛到老去
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/BXH.mp3
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/Tái Sinh - Tùng Dương.mp3
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/TỪ NAY EM LÀ VỢ ANH REMIX - KHẢ HIỆP.mp3
+https://raw.githubusercontent.com/Thaolga/Rules/main/music/Lâm Hùng - Em Đừng Đi.m4a
+https://raw.githubusercontent.com/Thaolga/Rules/main/music/Phan Duy Anh - Họ Đâu Thương Em.m4a
+https://raw.githubusercontent.com/Thaolga/Rules/main/music/Châu Dương - Anh Yêu Vội Thế.m4a
+https://raw.githubusercontent.com/Thaolga/Rules/main/music/Khánh Phương - Nơi Cuối Con Đường.m4a
+https://raw.githubusercontent.com/Thaolga/Rules/main/music/Jee Trần - Nơi Vực Nơi Trời Remix.m4a
+https://raw.githubusercontent.com/Thaolga/Rules/main/music/Cover Út Nhị - Theo Em Về Miền Trung.m4a
+https://raw.githubusercontent.com/Thaolga/Rules/main/music/JEE TRẦN - THƯƠNG HOA TIẾC NGỌC.m4a
+https://raw.githubusercontent.com/Thaolga/Rules/main/music/KIM NY NGỌC - TÌNH KHÚC CHIA LY 2 Anh Đến Bằng Lí Do.m4a
+https://raw.githubusercontent.com/Thaolga/Rules/main/music/Châu Dương - Anh Yêu Vội Thế.m4a
+https://raw.githubusercontent.com/Thaolga/Rules/main/music/Đặng Thanh Tuyền - Anh có thể đừng rời xa em được không？.m4a
+https://raw.githubusercontent.com/Thaolga/Rules/main/music/ឯណាពាក្យស្មោះ - លឹម សេរីហាន់នីកា.m4a
+https://raw.githubusercontent.com/Thaolga/Rules/main/music/ម្តេចយកប្រពន្ធចោលអូន - អុីវ៉ា.m4a
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/ភ្លៀងកុំធ្លាក់ខ្លាំងពេក - បាន មុន្នីល័ក្ខ.mp3
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/គេជាស្រី អូនជាប្រពន្ធ - បូទី - នាង គន្ធា.mp3
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/Trương Tuyền.webm
@@ -20,6 +33,9 @@ https://raw.githubusercontent.com/Thaolga/Rules/main/music/SaKa Trương Tuyền
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/Saka Trương Tuyền - 十指情緣.webm
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/SaKa Trương Tuyền - 孝道.webm
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/SaKa Trương Tuyền - 不滅的愛情.m4a
+https://raw.githubusercontent.com/Thaolga/Rules/main/music/SaKa Trương Tuyền - Khi Nào Anh Mới Biết Remix.m4a
+https://raw.githubusercontent.com/Thaolga/Rules/main/music/Saka Trương Tuyền - Nguyện Mãi Yêu Anh.m4a
+https://raw.githubusercontent.com/Thaolga/Rules/main/music/SaKa Trương Tuyền - Thương Em Không.m4a
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/MỘNG PHÂN LY RUMBA -  QUỲNH LADY.m4a
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/BIỆT TRI KỶ - Quỳnh Lady.m4a
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/Ngân Ngân - 人生觀.webm
@@ -43,6 +59,7 @@ https://raw.githubusercontent.com/Thaolga/Rules/main/music/Oanh Tạ - 一生與
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/Oanh Tạ - 缘尽情断.webm
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/Oanh Tạ - 紫花舊夢.webm
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/Oanh Tạ - LUÂN ĐẠO VÔ HỒI.webm
+https://raw.githubusercontent.com/Thaolga/Rules/main/music/Oanh Tạ - Kiếp Sau Vẫn Muốn Lập Gia Đình Với Anh.m4a
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/Oanh Tạ.mp3
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/天秀 - 不謂俠.webm
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/寶雲 - 娑婆法.webm
