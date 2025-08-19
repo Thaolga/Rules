@@ -144,9 +144,7 @@
     ],
     "experimental": {
         "cache_file": {
-            "enabled": true,
-            "path": "/etc/neko/cache.db",
-            "store_fakeip": true
+            "enabled": true
         },
         "clash_api": {
             "external_ui": "/etc/neko/ui",
