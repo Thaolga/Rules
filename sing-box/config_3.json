@@ -149,7 +149,7 @@
         "clash_api": {
             "external_ui": "/etc/neko/ui",
             "external_controller": "0.0.0.0:9090",
-            "secret": "nekobox"
+            "secret": "Akun"
         }
     },
   "log": {
