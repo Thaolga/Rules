@@ -18,7 +18,7 @@
     "independent_cache": true
   },
   "outbounds": [
-    {"tag": ✈️ 国际代理", "type": "selector", "outbounds": ["♻️ 自动选择", "🇭🇰 香港节点","🇨🇳 台湾节点","🇰🇷 韩国节点", "🇯🇵 日本节点", "🇸🇬 新加坡节点", "🇺🇲 美国节点", "🐸 手动切换", "🪜 其他地区"], "filter": [{"action": "exclude", "keywords": ["网站", "地址", "剩余", "过期", "时间", "有效", "套餐", "到期", "去除"]}]},
+    {"tag": "✈️ 国际代理", "type": "selector", "outbounds": ["♻️ 自动选择", "🇭🇰 香港节点","🇨🇳 台湾节点","🇰🇷 韩国节点", "🇯🇵 日本节点", "🇸🇬 新加坡节点", "🇺🇲 美国节点", "🐸 手动切换", "🪜 其他地区"], "filter": [{"action": "exclude", "keywords": ["网站", "地址", "剩余", "过期", "时间", "有效", "套餐", "到期", "去除"]}]},
     { "tag": "🎵 TikTok", "type": "selector", "outbounds": ["✈️ 国际代理", "♻️ 自动选择", "🇨🇳 台湾节点","🇰🇷 韩国节点", "🇸🇬 新加坡节点", "🇭🇰 香港节点", "🇯🇵 日本节点", "🇺🇲 美国节点", "🐸 手动切换", "🪜 其他地区"] },
     { "tag": "📹 YouTube", "type": "selector", "outbounds": ["✈️ 国际代理", "♻️ 自动选择", "🇨🇳 台湾节点","🇰🇷 韩国节点", "🇸🇬 新加坡节点", "🇭🇰 香港节点", "🇯🇵 日本节点", "🇺🇲 美国节点", "🐸 手动切换", "🪜 其他地区"] },
     { "tag": "🤖 OpenAI", "type": "selector", "outbounds": ["✈️ 国际代理", "♻️ 自动选择", "🇨🇳 台湾节点","🇰🇷 韩国节点", "🇸🇬 新加坡节点", "🇭🇰 香港节点", "🇯🇵 日本节点", "🇺🇲 美国节点", "🐸 手动切换", "🪜 其他地区"] },
@@ -81,7 +81,7 @@
       {"rule_set": ["category-ads-all"], "outbound": "block"}  
     ],
     "rule_set": [
-      { "tag": "geosite-tiktok", "type": "remote", "format": "binary", "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/tiktok.srs", "download_detour": ✈️ 国际代理" },
+      { "tag": "geosite-tiktok", "type": "remote", "format": "binary", "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/tiktok.srs", "download_detour": "✈️ 国际代理" },
       { "tag": "geoip-tiktok", "type": "remote", "format": "binary", "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo-lite/geosite/tiktok.srs", "download_detour": "✈️ 国际代理" },
       { "tag": "geosite-openai", "type": "remote", "format": "binary", "url": "https://raw.githubusercontent.com/Toperlock/sing-box-geosite/main/rule/OpenAI.srs", "download_detour": "✈️ 国际代理" },
       { "tag": "geosite-youtube", "type": "remote", "format": "binary", "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/youtube.srs", "download_detour": "✈️ 国际代理" },
