@@ -144,7 +144,7 @@
     ],
     "experimental": {
         "cache_file": {
-            "enabled": true
+            "enabled": true,
             "path": "/etc/neko/cache.db",
             "store_fakeip": true
         },
