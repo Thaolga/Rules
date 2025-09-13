@@ -1,4 +1,5 @@
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/沉虞CHENY & 自遊詩 - 難解.m4a
+https://raw.githubusercontent.com/Thaolga/Rules/main/music/Phut Hon - Hai Phut Hon Remix.m4a
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/周林楓 - 吉時未到.m4a
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/周林楓 - 別讓愛凋落.m4a
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/周林楓 - 囍与悲.m4a
@@ -7,8 +8,16 @@ https://raw.githubusercontent.com/Thaolga/Rules/main/music/周林楓 - 孤山.m4
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/周林楓 - 不孝有三.m4a
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/窩窩 - 月亮照山川.m4a
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/魏新雨 - 伊人.m4a
+https://raw.githubusercontent.com/Thaolga/Rules/main/music/陳壹千 - 仗著.m4a
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/黃齡&芳美芝 - 漂浮.m4a
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/可樓 & 芳美芝 - 麓海為王.m4a
+https://raw.githubusercontent.com/Thaolga/Rules/main/music/Phong Vũ Dạ Hàn - Nắng Lạnh Trong Cung Cấm.m4a
+https://raw.githubusercontent.com/Thaolga/Rules/main/music/Phong Vũ Dạ Hàn - Nợ Non Sông.m4a
+https://raw.githubusercontent.com/Thaolga/Rules/main/music/Phong Vũ Dạ Hàn - Lửa Hồ Ly.m4a
+https://raw.githubusercontent.com/Thaolga/Rules/main/music/Phong Vũ Dạ Hàn - Lửa Rừng Cửu Chân.m4a
+https://raw.githubusercontent.com/Thaolga/Rules/main/music/Phong Vũ Dạ Hàn - Bế Nguyệt.m4a
+https://raw.githubusercontent.com/Thaolga/Rules/main/music/Saka Trương Tuyền - Lời Cha Mẹ Dạy.m4a
+https://raw.githubusercontent.com/Thaolga/Rules/main/music/Yuni Boo ft. Goctoi Mixer - Bạn Tình Ơi (Eric T-J Remix).m4a
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/Khánh Phương - Nơi Cuối Con Đường.m4a
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/鐵血丹心.webm
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/敘世 - 梨子簫.webm
@@ -63,6 +72,7 @@ https://raw.githubusercontent.com/Thaolga/Rules/main/music/黃怡容 - 無常.we
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/Pinky Vanh x NVC - 女孩啊，别哭.webm
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/Linh Hương Luz - Mạnh Bà.webm
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/Linh Hương Luz - 孟婆.webm
+https://raw.githubusercontent.com/Thaolga/Rules/main/music/Oanh Tạ - MƯA LÀ ĐIỀU EM KHÔNG MUỐN.m4a
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/Oanh Tạ - Cố Nhân Chờ.webm
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/Oanh Tạ - 春天來了.webm
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/Oanh Tạ - 冬寒方憶春.webm
