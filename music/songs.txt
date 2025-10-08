@@ -1,5 +1,6 @@
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/沉虞CHENY & 自遊詩 - 難解.m4a
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/Phut Hon - Hai Phut Hon Remix.m4a
+https://raw.githubusercontent.com/Thaolga/Rules/main/music/Orb Sak Snea.m4a
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/周林楓 - 吉時未到.m4a
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/周林楓 - 別讓愛凋落.m4a
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/周林楓 - 囍与悲.m4a
@@ -181,7 +182,6 @@ https://raw.githubusercontent.com/Thaolga/Rules/main/music/Ut Nhi.mp3
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/Hay.mp3
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/古风歌曲.mp3
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/ktok.mp3
-https://raw.githubusercontent.com/Thaolga/Rules/main/music/d.mp3
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/dia.mp3
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/tok .mp3
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/du.mp3
