@@ -1,6 +1,7 @@
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/沉虞CHENY & 自遊詩 - 難解.m4a
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/Phut Hon - Hai Phut Hon Remix.m4a
-https://raw.githubusercontent.com/Thaolga/Rules/main/music/Orb Sak Snea.m4a
+https://raw.githubusercontent.com/Thaolga/Rules/main/music/Orb Sak Snea.mp3
+https://raw.githubusercontent.com/Thaolga/Rules/main/music/Sambutlah kemenanganku.flac
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/周林楓 - 吉時未到.m4a
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/周林楓 - 別讓愛凋落.m4a
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/周林楓 - 囍与悲.m4a
@@ -157,8 +158,6 @@ https://raw.githubusercontent.com/Thaolga/Rules/main/music/Tết là phải đi 
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/Một năm cũ đã qua.mp3
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/Caag ib daim ntawv tsis sib tsaug.flac
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/苹果香.mp3
-https://raw.githubusercontent.com/Thaolga/Rules/main/music/7382.mp3
-https://raw.githubusercontent.com/Thaolga/Rules/main/music/TaIB31.flac
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/nga.flac
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/7385400885959985936.mp3
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/7440090618121292561.mp3
