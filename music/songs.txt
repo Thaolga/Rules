@@ -61,6 +61,8 @@ https://raw.githubusercontent.com/Thaolga/Rules/main/music/周洋& 秋容 - 燕�
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/Ngân Ngân - Mộng Hoa Sim.mp3
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/Saka Trương Tuyền - Ma Lực Đồng Tiền.mp3
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/Saka Trương Tuyền - Yêu Đến Khi Già Đi.webm
+https://raw.githubusercontent.com/Thaolga/Rules/main/music/Út Nhị - NHÂN SINH QUÁN.flac
+https://raw.githubusercontent.com/Thaolga/Rules/main/music/Út Nhị - LUÂN ĐẠO VÔ HỒI.flac
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/JUNA HIỀN THANH - Duyên Đọa Đày.m4a
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/JUNA HIỀN THANH - Mong Rằng Kiếp Sau Sẽ Gặp Nhau Sớm Hơn.m4a
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/KEYO - TÒNG PHU.m4a
@@ -180,8 +182,6 @@ https://raw.githubusercontent.com/Thaolga/Rules/main/music/Từ nay em là vợ 
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/Vĩnh Thuyên Kim - 海阔天空.flac
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/Vở Kịch Của Em 你的戏- Hồ Phong An.flac
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/從夫 - TÒNG PHU  -  Út Nhị cover.flac
-https://raw.githubusercontent.com/Thaolga/Rules/main/music/Út Nhị - NHÂN SINH QUÁN.flac
-https://raw.githubusercontent.com/Thaolga/Rules/main/music/Út Nhị - LUÂN ĐẠO VÔ HỒI.flac
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/LIGHT IT UP X FLOWERS.mp3
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/Tết là phải đi về nhà.mp3
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/Một năm cũ đã qua.mp3
