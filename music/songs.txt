@@ -60,16 +60,18 @@ https://raw.githubusercontent.com/Thaolga/Rules/main/music/周洋& 秋容 - 燕�
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/Ngân Ngân - Mộng Hoa Sim.mp3
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/Saka Trương Tuyền - Lời Cha Mẹ Dạy.m4a
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/Saka Trương Tuyền - Ma Lực Đồng Tiền.mp3
+https://raw.githubusercontent.com/Thaolga/Rules/main/music/SaKa Trương Tuyền - Chỉ Yêu Mình Anh.mp3
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/Saka Trương Tuyền - Yêu Đến Khi Già Đi.webm
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/Saka Trương Tuyền - Nửa Vầng Trăng.webm
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/SaKa Trương Tuyền - 情逝朦朧.webm
-https://raw.githubusercontent.com/Thaolga/Rules/main/music/Saka Trương Tuyền - 十指情緣.webm
+https://raw.githubusercontent.com/Thaolga/Rules/main/music/Saka Trương Tuyền - Mười Ngón Tay Tình Yêu.webm
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/SaKa Trương Tuyền - Đạo Làm Con.webm
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/SaKa Trương Tuyền - Tình Yêu Bất Diệt.m4a
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/SaKa Trương Tuyền - Khi Nào Anh Mới Biết Remix.m4a
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/Saka Trương Tuyền - Nguyện Mãi Yêu Anh.m4a
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/SaKa Trương Tuyền - Thương Em Không.m4a
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/Trương Tuyền.webm
+https://raw.githubusercontent.com/Thaolga/Rules/main/music/Thái Khiết Linh - Ưng Thì Nói.webm
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/Út Nhị - NHÂN SINH QUÁN.flac
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/Út Nhị - LUÂN ĐẠO VÔ HỒI.flac
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/JUNA HIỀN THANH - Duyên Đọa Đày.m4a
@@ -122,7 +124,6 @@ https://raw.githubusercontent.com/Thaolga/Rules/main/music/Oanh Tạ - Kiếp Sa
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/Oanh Tạ.mp3
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/天秀 - 不謂俠.webm
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/寶雲 - 娑婆法.webm
-https://raw.githubusercontent.com/Thaolga/Rules/main/music/泰潔玲 - 喜歡就說.webm
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/鄧寓君(等什麼君)-春不晚.webm
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/浮生夢-星月落.webm
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/一隻白羊-賜我.webm
