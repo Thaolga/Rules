@@ -45,7 +45,6 @@ https://raw.githubusercontent.com/Thaolga/Rules/main/music/Phong Vũ Dạ Hàn -
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/Phong Vũ Dạ Hàn - Lửa Hồ Ly.m4a
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/Phong Vũ Dạ Hàn - Lửa Rừng Cửu Chân.m4a
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/Phong Vũ Dạ Hàn - Bế Nguyệt.m4a
-https://raw.githubusercontent.com/Thaolga/Rules/main/music/Saka Trương Tuyền - Lời Cha Mẹ Dạy.m4a
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/Yuni Boo ft. Goctoi Mixer - Bạn Tình Ơi (Eric T-J Remix).m4a
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/Khánh Phương - Nơi Cuối Con Đường.m4a
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/鐵血丹心.webm
@@ -59,8 +58,18 @@ https://raw.githubusercontent.com/Thaolga/Rules/main/music/錦零 - 九張機.we
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/SING-許詩茵 - 煙雨行舟.webm
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/周洋& 秋容 - 燕無歇.webm
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/Ngân Ngân - Mộng Hoa Sim.mp3
+https://raw.githubusercontent.com/Thaolga/Rules/main/music/Saka Trương Tuyền - Lời Cha Mẹ Dạy.m4a
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/Saka Trương Tuyền - Ma Lực Đồng Tiền.mp3
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/Saka Trương Tuyền - Yêu Đến Khi Già Đi.webm
+https://raw.githubusercontent.com/Thaolga/Rules/main/music/Saka Trương Tuyền - Nửa Vầng Trăng.webm
+https://raw.githubusercontent.com/Thaolga/Rules/main/music/SaKa Trương Tuyền - 情逝朦朧.webm
+https://raw.githubusercontent.com/Thaolga/Rules/main/music/Saka Trương Tuyền - 十指情緣.webm
+https://raw.githubusercontent.com/Thaolga/Rules/main/music/SaKa Trương Tuyền - 孝道.webm
+https://raw.githubusercontent.com/Thaolga/Rules/main/music/SaKa Trương Tuyền - 不滅的愛情.m4a
+https://raw.githubusercontent.com/Thaolga/Rules/main/music/SaKa Trương Tuyền - Khi Nào Anh Mới Biết Remix.m4a
+https://raw.githubusercontent.com/Thaolga/Rules/main/music/Saka Trương Tuyền - Nguyện Mãi Yêu Anh.m4a
+https://raw.githubusercontent.com/Thaolga/Rules/main/music/SaKa Trương Tuyền - Thương Em Không.m4a
+https://raw.githubusercontent.com/Thaolga/Rules/main/music/Trương Tuyền.webm
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/Út Nhị - NHÂN SINH QUÁN.flac
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/Út Nhị - LUÂN ĐẠO VÔ HỒI.flac
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/JUNA HIỀN THANH - Duyên Đọa Đày.m4a
@@ -85,15 +94,6 @@ https://raw.githubusercontent.com/Thaolga/Rules/main/music/ឯណាពាក្
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/ម្តេចយកប្រពន្ធចោលអូន - អុីវ៉ា.m4a
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/ភ្លៀងកុំធ្លាក់ខ្លាំងពេក - បាន មុន្នីល័ក្ខ.mp3
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/គេជាស្រី អូនជាប្រពន្ធ - បូទី - នាង គន្ធា.mp3
-https://raw.githubusercontent.com/Thaolga/Rules/main/music/Trương Tuyền.webm
-https://raw.githubusercontent.com/Thaolga/Rules/main/music/Saka Trương Tuyền - Nửa Vầng Trăng.webm
-https://raw.githubusercontent.com/Thaolga/Rules/main/music/SaKa Trương Tuyền - 情逝朦朧.webm
-https://raw.githubusercontent.com/Thaolga/Rules/main/music/Saka Trương Tuyền - 十指情緣.webm
-https://raw.githubusercontent.com/Thaolga/Rules/main/music/SaKa Trương Tuyền - 孝道.webm
-https://raw.githubusercontent.com/Thaolga/Rules/main/music/SaKa Trương Tuyền - 不滅的愛情.m4a
-https://raw.githubusercontent.com/Thaolga/Rules/main/music/SaKa Trương Tuyền - Khi Nào Anh Mới Biết Remix.m4a
-https://raw.githubusercontent.com/Thaolga/Rules/main/music/Saka Trương Tuyền - Nguyện Mãi Yêu Anh.m4a
-https://raw.githubusercontent.com/Thaolga/Rules/main/music/SaKa Trương Tuyền - Thương Em Không.m4a
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/MỘNG PHÂN LY RUMBA -  QUỲNH LADY.m4a
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/BIỆT TRI KỶ - Quỳnh Lady.m4a
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/Ngân Ngân - 人生觀.webm
