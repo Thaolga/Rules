@@ -235,6 +235,3 @@ https://raw.githubusercontent.com/Thaolga/Rules/main/music/Top.mp3
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/Saka.mp3
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/HB.mp3
 https://raw.githubusercontent.com/Thaolga/Rules/main/music/hat.mp3
-
-
-
