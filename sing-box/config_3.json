@@ -54,6 +54,7 @@
       { "protocol": [ "quic" ], "outbound": "REJECT" },
       { "clash_mode": "Direct", "outbound": "DIRECT" },
       { "clash_mode": "Global", "outbound": "GLOBAL" },
+      {"domain":["tiktok.com","*.tiktok.com","tiktokcdn.com","v16a.tiktokcdn.com","v16m.tiktokcdn.com","v19.tiktokcdn.com","p16-tiktokcdn-com.akamaized.net","tiktokv.com","api.tiktokv.com","api-h2.tiktokv.com","ib.tiktokv.com","log.tiktokv.com","muscdn.com","musical.ly","byteoversea.com","tiktokcdn-us.com","tiktokv.us","tiktokw.us","ttoverseaus.net","tiktoktv.com","tiktokvideo.com"],"outbound":"🎵 TikTok"},
       {"domain":["mzstatic.com","is1-ssl.mzstatic.com","is2-ssl.mzstatic.com","is3-ssl.mzstatic.com","audio-ssl.itunes.apple.com"],"outbound":"🍎 Apple"},
       {"rule_set": ["geosite-cn", "geoip-cn"], "outbound": "🇨🇳 直連"},
       { "domain": [ "clash.razord.top", "yacd.metacubex.one", "yacd.haishan.me", "d.metacubex.one" ], "outbound": "🇨🇳 直連" },
