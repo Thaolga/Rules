@@ -54,6 +54,7 @@
       { "protocol": [ "quic" ], "outbound": "REJECT" },
       { "clash_mode": "Direct", "outbound": "DIRECT" },
       { "clash_mode": "Global", "outbound": "GLOBAL" },
+      {"domain":["mzstatic.com","is1-ssl.mzstatic.com","is2-ssl.mzstatic.com","is3-ssl.mzstatic.com","audio-ssl.itunes.apple.com"],"outbound":"🍎 Apple"},
       {"rule_set": ["geosite-cn", "geoip-cn"], "outbound": "🇨🇳 直連"},
       { "domain": [ "clash.razord.top", "yacd.metacubex.one", "yacd.haishan.me", "d.metacubex.one" ], "outbound": "🇨🇳 直連" },
       {"ip_is_private": true, "outbound": "🇨🇳 直連"},
